@@ -23,6 +23,6 @@ steps:
     connectionString: 'Server=postgresql2021.postgres.database.azure.com;Database=demodb ;Port=5432;User Id=Insomea@postgresql2021;Password=In$ome@2020;sslmode=require;'
     workspacePath: '$(Build.SourcesDirectory)\yuniql\samples\basic-postgresql-sample'
     targetPlatform: 'postgresql'
-    autoCreateDatabase: true
+    autoCreateDatabase: false
     additionalArguments: '--debug'
  
