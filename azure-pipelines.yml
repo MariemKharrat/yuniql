@@ -21,7 +21,7 @@ steps:
   inputs:
     version: 'v1.1.55'
     connectionString: 'Server=postgresql2021.postgres.database.azure.com;Database=helloyuniql ;Port=5432;User Id=Insomea@postgresql2021;Password=In$ome@2020;Ssl Mode=Require;'
-    workspacePath: '$(Build.SourcesDirectory)\yuniql\samples\basic-postgresql-sample\v0.00'
+    workspacePath: '$(Build.SourcesDirectory)\yuniql\samples\basic-postgresql-sample'
     targetPlatform: 'postgresql'
     autoCreateDatabase: false
     additionalArguments: '--debug'
